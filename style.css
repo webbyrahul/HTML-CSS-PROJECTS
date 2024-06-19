@@ -1,0 +1,607 @@
+
+
+
+.navbar{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+.navlogo{
+    height: 60px;
+    width: 80px;
+}
+.logo{
+    background-image: url(img/logo.jpg);
+    height: 60px;
+    width: 100px;
+    background-size: cover;
+    
+}
+
+.border{
+    
+}
+.border:hover {
+    border: 2px solid rgb(0, 0, 0);
+}
+.box:hover{
+    border: 2px solid black;
+}
+.navaddress{
+    height: 40px;
+    width:80px;
+   padding-top: 0px;
+    margin-left: 50px;
+    background-color: #c7e4ff;
+    border-radius: 7%;
+}
+.add-first{
+    font-size: 14px;
+    font-family: cursive;
+    margin-top: 0%;
+    margin-bottom: 5px;
+}
+.add-sec{
+    font-size: 10px;
+   
+}
+.navsearch{
+    height: 50px;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 7%;
+ 
+  
+}
+.search1{
+    width: 350px;
+    height: 45px;
+    border-radius: 8px;
+    background-color:#c7e4ff;
+    margin-left: 50px;
+}
+.search2{
+    background-color:#c7e4ff;
+    width: 80px;
+    height: 50px;
+    border-radius: 7px;
+    margin-left: 5px;
+}
+.select1{
+    background-color: #c7e4ff;
+    border-radius: 7px;
+}
+.navlogin{
+    align-items: center;
+    color: black;
+    padding: 20px;
+    margin-left: 100PX;
+    display: flex;
+    
+}
+.login10{
+    margin-right: 20px;
+}
+
+img{
+    width: 1215px;
+    margin-top: 4px;
+    margin-bottom: 0%;
+}
+
+.ELECTRONICS{
+    height: 305px;
+    width: 100%;
+    background-color:white;
+    margin-top: 0px;
+    padding-top: 0px;
+
+}
+h2{
+    font-weight: 600;
+        font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        margin-left: 15px;
+        padding-top: 10px;
+}
+.boxes{
+    height: 300px;
+  
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 178px;
+    border: 2px solid #c8c8c8;
+    border-radius: 5%;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 5px;
+
+  
+ 
+}
+.boximg1{
+    height: 150.670px;
+    width: 142.67px;
+    background-image: url(img/smartwatch.png);
+
+    background-size: cover;
+    margin-top: 1px;
+    padding-left: 8px;
+
+}
+.boximg2{
+    height: 135.670px;
+    width: 135.67px;
+    background-image: url(img/dslr.jpg);
+
+    background-size: cover;
+    margin-top: 3px;
+    padding-left: 10px;
+    margin-left: 10px;
+
+}
+
+.boximg3{
+    background-image: url(img/monitor.jpg);
+    height: 120px;
+    width: 140px;
+    background-size: cover;
+    margin-left: 5px;
+    
+}
+
+.boximg4{
+    height: 100px ;
+    width: 166px;
+    background-image: url(img/laptop.jpg);
+    background-size: cover;
+    margin-top: 7px;
+}
+.boximg5{
+    height: 96px;
+    width:170px;
+    background-image: url(img/oven.jpg);
+    background-size: cover;
+    margin-left: 4px;
+    margin-top: 8px;
+}
+
+.boximg6{
+    height: 146px;
+    width:130px;
+    background-image: url(img/bts.jpg);
+    background-size: cover;
+    margin-left: 27px;
+    margin-top: 8px;
+}
+.caption{
+   
+    font-weight: bolder;
+
+}
+.caption2{
+    margin-top: 25px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+.caption3{
+    margin-top: 35px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+.caption4{
+    margin-top: 45px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+.caption5{
+    margin-top: 49px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+.caption6{
+    margin-top: 20px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.fashion{
+    height: 305px;
+    width: 100%;
+    background-color:white;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+h2{
+    font-weight: 600;
+        font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        margin-left: 15px;
+        padding-top: 1px; 
+}
+.fboxes{
+    height: 300px;
+  
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.fbox{
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 178px;
+    border: 2px solid #c8c8c8;
+    border-radius: 5%;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 5px;
+}
+.fboximg1{
+    height: 170.670px;
+    width: 169.67px;
+    background-image: url(img/shoes.png);
+
+    background-size: cover;
+    margin-top: 10px;
+    padding-left: 8px;
+
+}
+.fboximg2{
+    height: 160.670px;
+    width: 155.67px;
+    background-image: url(img/zeans.jpg);
+
+    background-size: cover;
+    margin-top: 13px;
+    padding-left: 10px;
+    margin-left: 10px;
+
+}
+
+.fboximg3{
+    background-image: url(img/girl\ top.jpeg);
+    height: 167px;
+    width: 175px;
+    background-size: cover;
+}
+.fboximg4{
+    height: 160px ;
+    width: 166px;
+    background-image: url(img/shirt.jpg);
+    background-size: cover;
+    margin-top: 7px;
+    padding-left: 12px;
+}
+.fboximg5{
+    height: 150px;
+    width:170px;
+    background-image: url(img/sandles.webp);
+    background-size: cover;
+    margin-left: 4px;
+    margin-top: 8px;
+}
+
+.fboximg6{
+    height: 110px;
+    width:160px;
+    background-image: url(img/belt.png);
+    background-size: cover;
+   padding-left: 10px;
+    margin-top: 8px;
+}
+.fcaption{
+    margin-top: 25px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+.fcaption2{
+   
+    font-weight: bolder;
+ 
+}
+.fcaption3{
+ 
+    font-weight: bolder;
+ 
+}
+.fcaption4{
+   
+    font-weight: bolder;
+  
+}
+.fcaption5{
+    
+    font-weight: bolder;
+ 
+}
+.fcaption6{
+   padding-top: 40px;
+    font-weight: bolder;  
+}
+.ads{
+    height: 430px;
+    background-color: white;
+    width:1215px;
+    margin-top: 10px;
+}
+.adboxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ad1{
+    height: 360px;
+    width:300px;
+    background-color: #c7e4ff;
+    border-radius: 3%;
+}
+.ad2{
+    height: 360px;
+    width:300px;
+    background-color: #c7e4ff;
+    border-radius: 3%;
+}
+.ad3{
+    height: 360px;
+    width:300px;
+    background-color: #c7e4ff;
+    border-radius: 3%;
+}
+.ad4{
+    height: 360px;
+    width:300px;
+    background-color: #c7e4ff;
+    border-radius: 3%;
+}
+.adboximg1{
+    background-image: url(img/sony\ ad.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+  
+}
+.adboximg2{
+    background-image: url(img/fair\ ad.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+.adboximg3{
+    background-image: url(img/biot\ ad2.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+.adboximg4{
+    background-image: url(img/biot\ ad.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+.adcaption{
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    font-size: larger;
+    margin-left: 15px;
+    margin-top: 0%;
+    
+}
+.adcaption2{
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    font-size: larger;
+    margin-top: 0px;
+    height: 40px;
+    width: 300px;
+   
+    
+}
+.adcaption3{
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    font-size: larger;
+    margin-left: 15px;
+
+}
+.adcaption4{
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    font-size: larger;
+    margin-left: 15px;
+ 
+}
+.furniture{
+    height: 335px;
+    width: 100%;
+    background-color:white;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+h2{
+    font-weight: 600;
+        font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        margin-left: 15px;
+       margin-bottom: 50px;
+}
+.lboxes{
+    height: 300px;
+  
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.lbox{
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 178px;
+    border: 2px solid #c8c8c8;
+    border-radius: 5%;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 5px;
+}
+.lboximg1{
+    height: 170.670px;
+    width: 160.67px;
+    background-image: url(img/wardrobe.jpeg);
+
+    background-size: cover;
+    margin-top: 10px;
+    padding-left: 8px;
+
+}
+.lboximg2{
+    height: 160.670px;
+    width: 155.67px;
+    background-image: url(img/sofa.jpg);
+
+    background-size: cover;
+    margin-top: 13px;
+    padding-left: 10px;
+    margin-left: 10px;
+
+}
+
+.lboximg3{
+    background-image: url(img/swing.jpeg);
+    height: 172px;
+    width: 115px;
+    background-size: cover;
+    margin-left: 25px;
+  
+}
+.lboximg4{
+    height: 170px ;
+    width: 150px;
+    background-image: url(img/shoe\ rack.jpeg);
+    background-size: cover;
+    margin-left: 15px;
+    margin-top: 10px;
+ 
+}
+.lboximg5{
+    height: 160px;
+    width:170px;
+    background-image: url(img/chair.jpeg);
+    background-size: cover;
+    margin-left: 4px;
+    margin-top: 8px;
+}
+
+.lboximg6{
+    height: 180px;
+    width:120px;
+    background-image: url(img/temple.jpeg);
+    background-size: cover;
+margin-left: 26px;
+}
+.lcaption{
+   
+    font-weight: bolder;
+   
+}
+.lcaption2{
+   
+    font-weight: bolder;
+ 
+}
+.lcaption3{
+ 
+    font-weight: bolder;
+ 
+}
+.lcaption4{
+   
+    font-weight: bolder;
+  
+}
+.lcaption5{
+    
+    font-weight: bolder;
+ 
+}
+.lcaption6{
+  
+    font-weight: bolder;  
+}
+.footer{
+    height: 1040px;
+    width:1200px;
+  
+    
+}
+.footer{
+    font-family:roboto;
+    text-align: left;
+    line-height: 20px;
+    font-weight: 10;
+    color: #878787;
+}
+p{
+    font-weight: 10;
+}
+.end{
+background-color: black;
+display: flex;
+align-items:
+height: 300px;
+width: 1210px;
+color: #c7e4ff;
+background-color: rgb(28, 27, 27);
+justify-content: space-evenly;
+
+
+}
+
+
+
+
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding-top: 20px;
+}
+
+
+.end2{
+    display: flex;
+    height: 340px;
+    width: 1210px;
+    color: #c7e4ff;
+    background-color: rgb(28, 27, 27);
+    justify-content: space-around;
+    position: relative;
+    
+    
+}
+.aboutboxes{
+    display: flex;
+    height: 250px;
+    width: 1210px;
+    color: #c7e4ff;
+    background-color: rgb(28, 27, 27);
+    justify-content: space-around;
+    position: relative;
+    right: 34px;
+
+}
+.lastend{
+ border: 2px solid white;
+    display: flex;
+    background-color: rgb(28, 26, 26);
+    justify-content: space-evenly;
+    color: #c7e4ff;
+}
+h4{
+    color: white;
+}
